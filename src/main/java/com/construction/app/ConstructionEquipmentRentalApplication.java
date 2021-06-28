@@ -1,0 +1,18 @@
+package com.construction.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+
+@SpringBootApplication
+@ComponentScan("com.construction.")
+public class ConstructionEquipmentRentalApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ConstructionEquipmentRentalApplication.class, args);
+		
+		
+	}
+
+}
